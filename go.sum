@@ -66,8 +66,9 @@ github.com/edgexfoundry/go-mod-registry/v2 v2.1.0 h1:ks0ejtLLUYKuoKrUBbWxygCU7q2
 github.com/edgexfoundry/go-mod-registry/v2 v2.1.0/go.mod h1:+MNlQm8Ks9ZmxqrMK4O3KdBA6E7nRK9M+qBtv/1lPcA=
 github.com/edgexfoundry/go-mod-secrets/v2 v2.1.0 h1:ASVZCZUv6cwM2GVoMJNb7rk5R7cw70S1gsut1yX8OXk=
 github.com/edgexfoundry/go-mod-secrets/v2 v2.1.0/go.mod h1:ZrbY5j9qrotIO+ymMsuUBAgXl8t7FBJ5lQm5WTKPGZk=
-github.com/edsrzf/mmap-go v1.0.0 h1:CEBF7HpRnUCSJgGUb5h1Gm7e3VkmVDrR8lvWVLtrOFw=
 github.com/edsrzf/mmap-go v1.0.0/go.mod h1:YO35OhQPt3KJa3ryjFM5Bs14WD66h8eGKpfaBNrHW5M=
+github.com/edsrzf/mmap-go v1.1.0 h1:6EUwBLQ/Mcr1EYLE4Tn1VdW1A4ckqCQWZBw8Hr0kjpQ=
+github.com/edsrzf/mmap-go v1.1.0/go.mod h1:19H/e8pUPLicwkyNgOykDXkJ9F0MHE+Z52B8EIth78Q=
 github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
 github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
 github.com/envoyproxy/go-control-plane v0.9.4/go.mod h1:6rpuAdCZL397s3pYoYcLgu1mIlRU8Am5FuJP05cCM98=
@@ -434,8 +435,9 @@ golang.org/x/sys v0.0.0-20210510120138-977fb7262007/go.mod h1:oPkhp1MJrh7nUepCBc
 golang.org/x/sys v0.0.0-20210603081109-ebe580a85c40/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
-golang.org/x/sys v0.0.0-20210806184541-e5e7981a1069 h1:siQdpVirKtzPhKl3lZWozZraCFObP8S1v6PRp0bLrtU=
 golang.org/x/sys v0.0.0-20210806184541-e5e7981a1069/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e h1:fLOSk5Q00efkSvAm+4xcoXD+RRmLmmulPn5I3Y9F2EM=
+golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/text v0.3.2/go.mod h1:bEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=
@@ -525,8 +527,9 @@ modernc.org/fileutil v1.0.0/go.mod h1:JHsWpkrk/CnVV1H/eGlFf85BEpfkrp56ro8nojIq9Q
 modernc.org/golex v1.0.1 h1:EYKY1a3wStt0RzHaH8mdSRNg78Ub0OHxYfCRWw35YtM=
 modernc.org/golex v1.0.1/go.mod h1:QCA53QtsT1NdGkaZZkF5ezFwk4IXh4BGNafAARTC254=
 modernc.org/internal v1.0.0/go.mod h1:VUD/+JAkhCpvkUitlEOnhpVxCgsBI90oTzSCRcqQVSM=
-modernc.org/internal v1.0.2 h1:Sn3+ojjMRnPaOR6jFISs6KAdRHnR4q9KNuwfKINKmZA=
 modernc.org/internal v1.0.2/go.mod h1:bycJAcev709ZU/47nil584PeBD+kbu8nv61ozeMso9E=
+modernc.org/internal v1.0.3 h1:ivuy70etcIw7JY5y5eIjEcElOBpwWtAVs9baukLyKxg=
+modernc.org/internal v1.0.3/go.mod h1:dvHFQEGEd33HZar0OdSYIm6yen/77eukCqffWSAwQUc=
 modernc.org/lex v1.0.0/go.mod h1:G6rxMTy3cH2iA0iXL/HRRv4Znu8MK4higxph/lE7ypk=
 modernc.org/lexer v1.0.0/go.mod h1:F/Dld0YKYdZCLQ7bD0USbWL4YKCyTDRDHiDTOs0q0vk=
 modernc.org/lldb v1.0.2 h1:LBw58xVFl01OuM5U9++tLy3wmu+PoWok6T3dHuNjcZk=
@@ -536,8 +539,8 @@ modernc.org/mathutil v1.1.1/go.mod h1:mZW8CKdRPY1v87qxC/wUdX5O1qDzXMP5TH3wjfpga6
 modernc.org/mathutil v1.2.2/go.mod h1:mZW8CKdRPY1v87qxC/wUdX5O1qDzXMP5TH3wjfpga6E=
 modernc.org/mathutil v1.4.1 h1:ij3fYGe8zBF4Vu+g0oT7mB06r8sqGWKuJu1yXeR4by8=
 modernc.org/mathutil v1.4.1/go.mod h1:mZW8CKdRPY1v87qxC/wUdX5O1qDzXMP5TH3wjfpga6E=
-modernc.org/ql v1.0.0 h1:bIQ/trWNVjQPlinI6jdOQsi195SIturGo3mp5hsDqVU=
-modernc.org/ql v1.0.0/go.mod h1:xGVyrLIatPcO2C1JvI/Co8c0sr6y91HKFNy4pt9JXEY=
+modernc.org/ql v1.4.1 h1:p0Bx3+AZ29YvJVNWkpKWa0dYaV+x8a2XABZDkw8GfqE=
+modernc.org/ql v1.4.1/go.mod h1:c3RNgNK67+UYCyZXWf0tEYmBtWtGrg9M0IbAB5MAWS4=
 modernc.org/sortutil v1.1.0 h1:oP3U4uM+NT/qBQcbg/K2iqAX0Nx7B1b6YZtq3Gk/PjM=
 modernc.org/sortutil v1.1.0/go.mod h1:ZyL98OQHJgH9IEfN71VsamvJgrtRX9Dj2gX+vH86L1k=
 modernc.org/strutil v1.1.1 h1:xv+J1BXY3Opl2ALrBwyfEikFAj8pmqcpnfmuwUwcozs=
