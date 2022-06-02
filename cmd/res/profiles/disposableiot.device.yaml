@@ -1,0 +1,182 @@
+name: "DisposableIoT-Device"
+manufacturer: "KETI"
+model: "DisposableIot Device v2.0"
+labels:
+- "disposableiot-device"
+description: "DisposableIot device"
+
+deviceResources:
+-
+  name: "mis"
+  isHidden: true
+  description: "Microservice of Device"  
+  properties:
+    valueType: "String"
+    readWrite: "R"
+    defaultValue: ""
+-
+  name: "mif"
+  isHidden: true
+  description: "Microserevice Information of Device"
+  properties:
+    valueType: "String"
+    readWrite: "R"
+    defaultValue: ""
+-
+  name: "dti"
+  isHidden: true
+  description: "DeviceTaskInformation"
+  properties:
+    valueType: "String"
+    readWrite: "R"
+    defaultValue: "3"
+-
+  name: "mc"
+  isHidden: true
+  description: "MicroserviceCreation"
+  properties:
+    valueType: "String"
+    readWrite: "W"
+    defaultValue: "10"
+-
+  name: "mr"
+  isHidden: true
+  description: "MicroserviceRun"
+  properties:
+    valueType: "String"
+    readWrite: "W"
+    defaultValue: "11"
+-
+  name: "mips"
+  isHidden: true
+  description: "MicroserviceInputParameterSet"
+  properties:
+    valueType: "String"
+    readWrite: "W"
+    defaultValue: "12"
+-
+  name: "mopr"
+  isHidden: true
+  description: "MicroserviceOutputParameterRead"
+  properties:
+    valueType: "String"
+    readWrite: "R"
+    defaultValue: "13"
+-
+  name: "ms"
+  isHidden: true
+  description: "MicroserviceStop"
+  properties:
+    valueType: "String"
+    readWrite: "W"
+    defaultValue: "15"
+-
+  name: "md"
+  isHidden: true
+  description: "MicroserviceDelete"
+  properties:
+    valueType: "String"
+    readWrite: "W"
+    defaultValue: "16"
+-
+  name: "ton"
+  isHidden: true
+  description: "TaskOn"
+  properties:
+    valueType: "String"
+    readWrite: "W"
+    defaultValue: "20"
+-
+  name: "tps"
+  isHidden: true
+  description: "TaskParameterSet"
+  properties:
+    valueType: "String"
+    readWrite: "W"
+    defaultValue: "21"
+-
+  name: "tpr"
+  isHidden: true
+  description: "TaskParameterRead"
+  properties:
+    valueType: "String"
+    readWrite: "R"
+    defaultValue: "22"
+-
+  name: "tpra"
+  isHidden: true
+  description: "TaskParameterReadAll"
+  properties:
+    valueType: "String"
+    readWrite: "R"
+    defaultValue: "23"
+-
+  name: "tof"
+  isHidden: true
+  description: "TaskOff"
+  properties:
+    valueType: "String"
+    readWrite: "W"
+    defaultValue: "24"
+
+deviceCommands:
+- name: "DeviceTaskInformation"
+  readWrite: "R"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "dti"}
+- name: "MicroserviceCreation"
+  readWrite: "W"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "mc"}  
+- name: "MicroserviceRun"
+  readWrite: "W"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "mr"}  
+- name: "MicroserviceInputParameterSet"
+  readWrite: "W"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "mips"}  
+- name: "MicroserviceOutputParameterRead"
+  readWrite: "R"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "mopr"}  
+- name: "MicroserviceStop"
+  readWrite: "W"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "ms"}  
+- name: "MicroserviceDelete"
+  readWrite: "W"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "md"}  
+- name: "TaskOn"
+  readWrite: "W"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "ton"}  
+- name: "TaskParameterSet"
+  readWrite: "W"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "tps"}  
+- name: "TaskParameterRead"
+  readWrite: "R"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "tpr"}  
+- name: "TaskParameterReadAll"
+  readWrite: "R"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "tpra"}  
+- name: "TaskOff"
+  readWrite: "W"
+  isHidden: false
+  resourceOperations:
+  - { deviceResource: "tof"}

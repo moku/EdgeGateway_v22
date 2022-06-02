@@ -9,15 +9,15 @@ package main
 import (
 	"github.com/edgexfoundry/device-sdk-go/v2/pkg/startup"
 
-	"github.com/edgexfoundry/device-virtual-go"
-	"github.com/edgexfoundry/device-virtual-go/internal/driver"
+	disposableiot_device "github.com/keti/disposableiot-edge-gateway"
+	"github.com/keti/disposableiot-edge-gateway/internal/driver"
 )
 
 const (
-	serviceName string = "device-virtual"
+	serviceName string = "disposableiot-device"
 )
 
 func main() {
-	d := driver.NewVirtualDeviceDriver()
-	startup.Bootstrap(serviceName, device_virtual.Version, d)
+	d := driver.NewDisposableiotDeviceDriver()
+	startup.Bootstrap(serviceName, disposableiot_device.Version, d)
 }
